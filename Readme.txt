@@ -1,9 +1,3 @@
-'/profile'
-'/profileFind' : {action :'profilecontroller#FindProfiles', method :'get'},
-'/profileDelete/:id' : {action :'profilecontroller#deleteProfile', method :'get'},
-'/profileUpdate/:id' : {action :'profilecontroller#updateProfile', method :'post'},
-
-
 Authorization dengan basicAuth
 -------------------------------
 Username : ommasta,
@@ -29,7 +23,7 @@ URL Request
 2.Untuk Find Semua Profile
   Url             : http://localhost:8080/profileFind
   Method          : GET
-  
+
 3.Untuk Find Profile Berdasarkan ID
   Url             : http://localhost:8080/profileFind/:IdProfile
   Method          : GET
