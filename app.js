@@ -30,7 +30,7 @@ app.post('/upload',function(req,res){
 		if(err) {
 			return res.end("Error uploading file.");
 		}
-		res.end("File is uploaded");
+		res.json({data : req.file})
 	});
 });
 
